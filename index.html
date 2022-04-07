@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <section class="contact-us">
+        <div class="container contact-us-container">
+
+            <form class="contact-us-form">
+
+                <label class="contact-us-label" for="contact-us-name">Имя</label>
+                <input class="contact-us-input" type="text" name="name" id="contact-us-name" placeholder="Введите имя">
+
+                <label class="contact-us-label" for="contact-us-surname">Фамилия</label>
+                <input class="contact-us-input" type="text" name="surname" id="contact-us-surname" placeholder="Введите фамилию">
+
+                <label class="contact-us-label" for="contact-us-textarea">Текст заявки</label>
+                <textarea class="contact-us-input contact-us-textarea" name="message" id="contact-us-textarea" cols="30" rows="10" placeholder="Введите текст заявки"></textarea>
+
+                <label class="contact-us-checkbox-label" for="contact-us-checkbox">
+
+                    <input class="contact-us-checkbox-item" type="checkbox" name="checkbox" id="contact-us-checkbox">
+
+                    <span class="contact-us-checkbox-checkmark">
+                        <svg class="contact-us-checkbox-icon">
+                            <use href="./images/Vector.svg#icon-vector"></use>
+                        </svg>
+                    </span>
+                    
+                    Согласен с обработкой данных и принимаю <a class="contact-us-checkbox-link" href="#">Условия договора</a>
+                </label>
+
+                
+                
+                
+<!-- 
+                <label class="contact-us-label" for="contact-us-select">Город</label>
+                <select class="contact-us-input" name="select" id="contact-us-select">
+                    <option value="Чернигов">Чернигов</option>
+                    <option value="Киев">Киев</option>
+                    <option value="Львов">Львов</option>
+                    <option value="Одесса" selected>Одесса</option>
+                    <option value="Сумы">Сумы</option>
+                </select>
+
+                <div>
+                    <p class="contact-us-label">Выберите вариант ответа</p>
+
+                    <input type="radio" name="radio" id="radio-1">
+                    <label for="radio-1">Вариант 1</label>
+
+                    <input type="radio" name="radio" id="radio-2">
+                    <label for="radio-2">Вариант 2</label>
+                </div> -->
+                
+                <button class="contact-us-btn" type="submit">Отправить</button>
+
+            </form>
+
+        </div>
+    </section>
+
+</body>
+</html>
